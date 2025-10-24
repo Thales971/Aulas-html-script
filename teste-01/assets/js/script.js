@@ -10,14 +10,14 @@ botao.addEventListener("click", function() {
       //Troca para o modo escuro 
        body.classList.replace("claro", 
         "escuro");
-       titulo.textContent = "Tema Escuro";
-       botao.textContent = "Mudar para Tema Claro";
+       titulo.textContent = "Tema Escuro🌙";
+       botao.textContent = "Mudar para Tema Claro☀️";
         } else {
      // Troca para o modo claro
          body.classList.replace("escuro", 
             "claro");
-            titulo.textContent = "Tema Claro";
-            botao.textContent = "Mudar para Tema Escuro";
+            titulo.textContent = "Tema Claro☀️";
+            botao.textContent = "Mudar para Tema Escuro🌙";
         }
 });
 
