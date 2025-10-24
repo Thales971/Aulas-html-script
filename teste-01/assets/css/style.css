@@ -1,0 +1,48 @@
+/* Estilo gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s,
+    color 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+/* layout principal */
+main {
+   margin-top: 120px;
+}
+
+/* Tema claro */
+body.claro {
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+/* Tema escuro */
+body.escuro {
+    background-color: #222;
+    color: #f2f2f2;
+}
+
+/* Estilos dos elementos */
+h1 {
+    transition: color 0.4s;
+}
+
+/* Estilos do botão */
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
